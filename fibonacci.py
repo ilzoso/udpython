@@ -62,16 +62,16 @@ def permutations(num1, num2):
     return factorial(num1) / factorial(num2)
 
 
-print sum_even(4000000)
-print prime_factors(600851475143)
-print "Combinations ", combinations(40, 20)
-print factorial(10)
-print factorial(5)
-print factorial(6)
-print combinations(4, 2)
-print combinations(6, 3)
-print combinations(7, 3)
-print combinations(7, 4)
+print(sum_even(4000000))
+print(prime_factors(600851475143))
+print("Combinations ", combinations(40, 20))
+print(factorial(10))
+print(factorial(5))
+print(factorial(6))
+print(combinations(4, 2))
+print(combinations(6, 3))
+print(combinations(7, 3))
+print(combinations(7, 4))
 
 
 def choices(matrix, size):
